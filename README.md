@@ -20,10 +20,11 @@ to give people a better idea of the product.
 Skills:
 UI/UX, Web Design, Information Architecture, Figma, Responsive Web Design, User Experience Design, Website, User Interface Design, Design Thinking, Landing Page, Website Optimization, Design System
 
-![1](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/73a481b9-dc0f-410a-8a05-892ef99bda2b)
-![2](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/e9d01a88-1374-4677-9168-21b5cca344cb)
-![3](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/a6cce949-8cf1-4267-848b-27359a3bc61f)
-![4](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/c21d3ad8-258d-491d-8738-555e439c750e)
-![5](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/ad9f64a5-0e95-471a-aa2f-6c38735114bb)
-![6](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/0155db9b-88d2-4ec5-ba25-f084b38fd3d9)
-![7](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/7a2eb60f-f781-4e6d-84c8-8caea0ae56b0)
+![1](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/279d53ad-4d2a-4833-8e6b-ea2bbadf8f6e)
+![2](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/13c06478-1bf4-49e2-94b4-394c7b3f6e37)
+![3](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/c2d0c8ff-dc87-4ddb-ba16-18cbef99876f)
+![4](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/caabc048-ac34-4004-bc41-ce095620190b)
+![5](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/f47b46de-7e55-409e-aa27-ae3903ddccda)
+![6](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/9ba90996-d1f4-4f32-924f-c5eab2cba83e)
+![7](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/869a3fb1-e9eb-4a6c-b7ed-563b6a9a1235)
+
