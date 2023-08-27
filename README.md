@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+Skills and deliverables
+Business Process ReengineeringUX ResearchWeb ApplicationProduct DesignLanding PageSoftware DesignContent StrategyWebflowWebsiteUX & UIDigital DesignWeb DesignWeb Development
+Project description
+◼️
+About:
+Mr. Snark helps crypto investors increase their ROI by providing deeper market data, social trends, real-time news, developer data, and much more.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+◼️
+Goal:
+The goal of the project was to redesign the current website to make it look modern, clean, and aesthetic, focusing visitors on downloading the actual app.
 
-## Available Scripts
+◼️
+What was done:
+1. The page was restructured more logically
+to give people a better idea of the product.
+2. An additional Call to Action was added to keep the customers focused on the main action.
+3. More iPhone mockups were added to give visitors an inside look and associate the brand with the existing app.
+4. The revamped page based on the most award-winning references enabled the brand to appear more trustworthy and professional.
 
-In the project directory, you can run:
+Skills:
+UI/UX, Web Design, Information Architecture, Figma, Responsive Web Design, User Experience Design, Website, User Interface Design, Design Thinking, Landing Page, Website Optimization, Design System
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![1](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/73a481b9-dc0f-410a-8a05-892ef99bda2b)
+![2](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/e9d01a88-1374-4677-9168-21b5cca344cb)
+![3](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/a6cce949-8cf1-4267-848b-27359a3bc61f)
+![4](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/c21d3ad8-258d-491d-8738-555e439c750e)
+![5](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/ad9f64a5-0e95-471a-aa2f-6c38735114bb)
+![6](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/0155db9b-88d2-4ec5-ba25-f084b38fd3d9)
+![7](https://github.com/OleksandrMalishevskyi/mr.snark/assets/80953884/7a2eb60f-f781-4e6d-84c8-8caea0ae56b0)
