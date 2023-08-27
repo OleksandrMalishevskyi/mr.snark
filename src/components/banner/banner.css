@@ -1,0 +1,244 @@
+.banner-space {
+  padding: 180px 0;
+}
+.banner-space .banner {
+  height: 650px;
+}
+.banner-space .banner .container {
+  display: flex;
+  flex-direction: row;
+}
+.banner-space .banner .container .banner-content {
+  max-width: 50%;
+}
+.banner-space .banner .container .banner-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--color-second);
+  max-width: 370px;
+}
+.banner-space .banner .container .banner-content .apple {
+  background-image: url("../../img/app-store.png");
+}
+.banner-space .banner .container .banner-content .google {
+  background-image: url("../../img/google-play.png");
+}
+.banner-space .banner .container .banner-content .banner-video-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 109px;
+  gap: 0;
+  border-radius: 5px;
+  border: solid 1px #383838;
+  overflow: hidden;
+}
+.banner-space .banner .container .banner-content .banner-video-btn:hover {
+  transform: translateY(-3px);
+}
+.banner-space .banner .container .banner-content .banner-video-btn .video-img {
+  width: 107px;
+  height: 71px;
+  background-image: url("/img/watchvideo.png");
+  background-position: center center;
+  background-size: cover;
+}
+.banner-space .banner .container .banner-content .banner-video-btn .video-text {
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--color-main);
+  padding: 0 20px;
+}
+.banner-space .banner .container .banner-content .video-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.5s all ease;
+  z-index: 10;
+  pointer-events: none;
+}
+.banner-space .banner .container .banner-content .video-link .video-close {
+  position: absolute;
+  top: -70px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  background: #fff;
+  background-image: url("../../img/close.png");
+  background-size: cover;
+}
+.banner-space .banner .container .banner-content .video-link.active .video-close {
+  top: -20px;
+}
+.banner-space .banner .container .banner-content .video-link.active {
+  opacity: 1;
+  pointer-events: visible;
+}
+.banner-space .banner .container .banner-content .video-link.active iframe {
+  position: relative;
+  top: 0;
+}
+.banner-space .banner .container .banner-content .video-link iframe {
+  position: relative;
+  top: -50px;
+  transition: 0.5s all ease;
+}
+.banner-space .banner .container .banner-content .bg-dark {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 5;
+}
+.banner-space .banner .container .banner-img {
+  height: 100%;
+  width: 50%;
+}
+.banner-space .banner .container .banner-img:hover .phone_1 {
+  top: 120px;
+}
+.banner-space .banner .container .banner-img:hover .phone_2 {
+  top: 30px;
+  right: 0;
+}
+.banner-space .banner .container .banner-img .phone_1 {
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  z-index: 2;
+  transition: all ease-in-out 0.8s;
+}
+.banner-space .banner .container .banner-img .phone_2 {
+  position: absolute;
+  top: 10px;
+  right: -20px;
+  z-index: 1;
+  transition: all ease-in-out 0.9s;
+}
+
+@media screen and (max-width: 900px) {
+  .banner-space .banner {
+    height: 650px;
+  }
+  .banner-space .banner .container {
+    flex-direction: column;
+  }
+  .banner-space .banner .container .banner-content {
+    max-width: 100%;
+  }
+  .banner-space .banner .container .banner-content .video-link {
+    top: 20%;
+  }
+  .banner-space .banner .container .banner-img {
+    position: relative;
+    height: 600px;
+    width: 100%;
+  }
+  .banner-space .banner .container .banner-img .phone_1 {
+    top: 30px;
+    right: 40%;
+  }
+  .banner-space .banner .container .banner-img .phone_2 {
+    top: -10px;
+    left: 40%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner-space {
+    padding: 100px 0;
+  }
+  .banner-space .banner {
+    height: 650px;
+  }
+  .banner-space .banner .container .banner-content {
+    max-width: 100%;
+    height: 100%;
+  }
+  .banner-space .banner .container .banner-content h6 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .banner-space .banner .container .banner-content h1 {
+    font-size: 30px;
+    line-height: 32px;
+    margin: 4px 0 10px 0;
+  }
+  .banner-space .banner .container .banner-content p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .banner-space .banner .container .banner-content .download-app {
+    justify-content: center;
+  }
+  .banner-space .banner .container .banner-content .banner-video-btn {
+    margin: 50px auto 0 auto;
+  }
+  .banner-space .banner .container .banner-content .banner-video-btn .video-text {
+    font-size: 10px;
+    padding: 0 10px;
+  }
+  .banner-space .banner .container .banner-content .banner-video-btn .video-img {
+    width: 86px;
+    height: 57px;
+  }
+  .banner-space .banner .container .banner-content .video-link {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .banner-space .banner .container .banner-content .video-link .video-close {
+    position: absolute;
+    top: -70px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    background: #fff;
+    background-image: url("../../img/close.png");
+    background-size: cover;
+  }
+  .banner-space .banner .container .banner-content .video-link.active .video-close {
+    top: -20px;
+  }
+  .banner-space .banner .container .banner-content .video-link.active {
+    opacity: 1;
+    pointer-events: visible;
+  }
+  .banner-space .banner .container .banner-content .video-link.active iframe {
+    position: relative;
+    top: 0;
+  }
+  .banner-space .banner .container .banner-content .video-link iframe {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -50px;
+    transition: 0.5s all ease;
+  }
+  .banner-space .banner .container .banner-img {
+    left: -20px;
+    height: 370px;
+    width: 120%;
+  }
+  .banner-space .banner .container .banner-img .phone_1 {
+    top: 20px;
+    left: 10%;
+    width: 200px;
+    height: auto;
+  }
+  .banner-space .banner .container .banner-img .phone_2 {
+    top: 5px;
+    left: 30%;
+    width: 200px;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=banner.css.map */

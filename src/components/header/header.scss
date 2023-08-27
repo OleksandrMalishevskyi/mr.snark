@@ -1,0 +1,138 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #383838;
+  background-color: #000;
+  z-index: 10;
+
+  .container {
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .menu {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        li {
+          padding: 8px;
+        }
+      }
+      .join-xs, .menu-xs {
+        display: none;
+      }
+
+      .hamburger {
+        position: fixed;
+        right: 0;
+        display: none;
+        cursor: pointer;
+        border: transparent;
+        background-color: transparent;
+        transition: var(--transition);
+
+        .bar {
+          display: block;
+          width: 25px;
+          height: 3px;
+          margin: 5px auto;
+          border-radius: 5px;
+          -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          background-color: var(--color-main);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #383838;
+
+    .container {
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .menu, .join {
+          display: none;
+        }
+        .menu-xs {
+          display: flex;
+          position: absolute;
+          top: -310px;
+          flex-direction: column;
+          align-items: start;
+          gap: 20px;
+          width: calc((100% - 40px));
+          margin-right: 100%;
+          background-color: #000;
+          transition: all ease-in .3s;
+
+          a {
+            width: 100%;
+            padding: 17px 0 0 0;
+            border-top: 1px solid #383838;
+
+            &:last-child {
+              padding-bottom: 17px;
+              border-bottom: 1px solid #383838;
+            }
+          }
+
+          &.active {
+            top: 37px;
+          }
+        }
+        .join-xs {
+          display: block;
+          visibility: hidden;
+          position: absolute;
+          top: 1000px;
+          width: calc((100% - 40px));
+          z-index: 0;
+          transition: all .3s ease-in-out;
+
+          &.active {
+            visibility: visible;
+            top: 600px;
+          }
+        }
+
+        .hamburger {
+          display: block;
+
+          &.active {
+            position: fixed;
+
+            .bar-top {
+              width: 12.5px;
+              transform: translateY(4px) translateX(4px) rotate(-45deg);
+            }
+            .bar-mid {
+              width: 24px;
+              transform: rotate(45deg);
+            }
+            .bar-bottom {
+              width: 12.5px;
+              transform: translateY(-4px) translateX(-4px) rotate(-45deg);
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

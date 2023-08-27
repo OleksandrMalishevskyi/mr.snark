@@ -1,0 +1,90 @@
+.partners-area {
+  background-color: #fff;
+}
+.partners-area .container {
+  padding: 160px 0;
+}
+.partners-area .container .partners-box {
+  padding-left: 440px;
+  color: #000;
+}
+.partners-area .container .partners-box h6 {
+  color: #000;
+}
+.partners-area .container .partners-box .partner-clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #383838;
+  width: 800px;
+  margin-top: 20px;
+}
+.partners-area .container .partners-box .partner-clients .partner-clients-item {
+  width: 33%;
+  padding: 35px 15px;
+  text-align: center;
+}
+.partners-area .container .partners-box .partner-clients .partner-clients-item:nth-child(2) {
+  border-right: 1px solid #383838;
+  border-left: 1px solid #383838;
+}
+
+@media screen and (max-width: 1250px) {
+  .partners-area .container .partners-box {
+    padding-left: 300px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .partners-area .container .partners-box {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .partners-area .container .partners-box h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .partners-area .container .partners-box .partner-clients {
+    flex-direction: column;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .partners-area .container .partners-box .partner-clients .partner-clients-item {
+    width: 100%;
+  }
+  .partners-area .container .partners-box .partner-clients .partner-clients-item:nth-child(2) {
+    border-top: 1px solid #383838;
+    border-bottom: 1px solid #383838;
+    border-left: 0;
+    border-right: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .partners-area .container {
+    padding: 100px 30px;
+  }
+  .partners-area .container .partners-box {
+    padding-left: 0;
+  }
+  .partners-area .container .partners-box h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .partners-area .container .partners-box .partner-clients {
+    max-width: 100%;
+  }
+  .partners-area .container .partners-box .partner-clients .partner-clients-item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .partners-area .container .partners-box .partner-clients .partner-clients-item {
+    padding: 20px 10px;
+  }
+  .partners-area .container .partners-box .partner-clients .partner-clients-item img {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=partners.css.map */

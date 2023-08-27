@@ -1,0 +1,135 @@
+.demoVideo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 440px;
+  padding: 160px 0;
+
+  .demoVideo_title {
+    margin-bottom: 40px;
+  }
+
+  .demoVideo-content {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    .demoVideo-box {
+      width: 415px;
+      height: 540px;
+
+      video {
+        width: 415px;
+        height: 540px;
+      }
+    }
+    .demoVideo-text {
+      max-width: 415px;
+
+      .demo-text-box {
+        margin-top: 90px;
+
+        .text-item {
+          display: flex;
+          flex-direction: row;
+          padding: 10px;
+          border-top: 1px solid #383838;
+          border-bottom: 1px solid #383838;
+          font-family: 'Lato', sans-serif;
+
+          span {
+            min-width: 150px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+          }
+          p {
+            width: 65%;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            color: var(--color-second);
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .demoVideo {
+    margin-left: 350px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .demoVideo {
+    margin-left: 0;
+    padding: 20px 0;
+
+    .demoVideo-content {
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .demoVideo {
+    margin-left: 0;
+    padding: 400px 0;
+
+    h2 {
+      font-size: 32px;
+      line-height: 36px;
+    }
+
+    .demoVideo-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .demoVideo {
+    padding: 100px 0;
+
+    .demoVideo-content {
+
+      .demoVideo-box {
+        width: 90%;
+        height: auto;
+
+        video {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .demoVideo-text {
+        max-width: 415px;
+
+        h3 {
+          font-size: 22px;
+          line-height: 28px;
+        }
+
+        .demo-text-box {
+          margin-top: 30px;
+
+          .text-item {
+            padding: 10px;
+
+            span {
+              min-width: 100px;
+            }
+            p {
+              width: 85%;
+              line-height: 18px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

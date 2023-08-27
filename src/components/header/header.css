@@ -1,0 +1,121 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #383838;
+  background-color: #000;
+  z-index: 10;
+}
+header .container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .navbar .menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .container .navbar .menu li {
+  padding: 8px;
+}
+header .container .navbar .join-xs, header .container .navbar .menu-xs {
+  display: none;
+}
+header .container .navbar .hamburger {
+  position: fixed;
+  right: 0;
+  display: none;
+  cursor: pointer;
+  border: transparent;
+  background-color: transparent;
+  transition: var(--transition);
+}
+header .container .navbar .hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--color-main);
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #383838;
+  }
+  header .container .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .container .navbar .menu, header .container .navbar .join {
+    display: none;
+  }
+  header .container .navbar .menu-xs {
+    display: flex;
+    position: absolute;
+    top: -310px;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: calc(100% - 40px);
+    margin-right: 100%;
+    background-color: #000;
+    transition: all ease-in 0.3s;
+  }
+  header .container .navbar .menu-xs a {
+    width: 100%;
+    padding: 17px 0 0 0;
+    border-top: 1px solid #383838;
+  }
+  header .container .navbar .menu-xs a:last-child {
+    padding-bottom: 17px;
+    border-bottom: 1px solid #383838;
+  }
+  header .container .navbar .menu-xs.active {
+    top: 37px;
+  }
+  header .container .navbar .join-xs {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 1000px;
+    width: calc(100% - 40px);
+    z-index: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  header .container .navbar .join-xs.active {
+    visibility: visible;
+    top: 600px;
+  }
+  header .container .navbar .hamburger {
+    display: block;
+  }
+  header .container .navbar .hamburger.active {
+    position: fixed;
+  }
+  header .container .navbar .hamburger.active .bar-top {
+    width: 12.5px;
+    transform: translateY(4px) translateX(4px) rotate(-45deg);
+  }
+  header .container .navbar .hamburger.active .bar-mid {
+    width: 24px;
+    transform: rotate(45deg);
+  }
+  header .container .navbar .hamburger.active .bar-bottom {
+    width: 12.5px;
+    transform: translateY(-4px) translateX(-4px) rotate(-45deg);
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeueCyr-Medium.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+:root {
+  --color-main: #fff;
+  --color-second: #b2b2b2;
+  --transition: all ease .15s;
+}
+
+html, body {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  min-height: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+body {
+  overflow: hidden;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  cursor: pointer;
+  color: var(--color-second);
+  transition: var(--transition);
+}
+a:hover {
+  color: var(--color-main);
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--color-main);
+  color: #000;
+  padding: 14px 32px;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  border: 1px solid var(--color-main);
+  transition: all ease 0.3s;
+}
+button:hover {
+  background-color: #000;
+  color: var(--color-main);
+}
+
+.container {
+  position: relative;
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Helvetica Neue";
+  font-size: 75px;
+  line-height: 80px;
+  margin: 4px 0 25px 0;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 42px;
+  line-height: 50.4px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  max-width: 790px;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 41.6px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  color: var(--color-second);
+}
+
+h6 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  color: var(--color-second);
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--color-main);
+}
+
+.download-app {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.download-app .download-item {
+  width: 135px;
+  height: 40px;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: var(--color-second) solid 1px;
+  transition: var(--transition);
+}
+.download-app .download-item:hover {
+  transform: translateY(-3px);
+}
+
+.bg-dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+}
+
+.no-scroll {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=index.css.map */

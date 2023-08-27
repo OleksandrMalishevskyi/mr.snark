@@ -1,0 +1,150 @@
+.FAQ {
+  padding: 160px 0;
+
+  .container {
+
+    .FAQ-title {
+      padding-left:  440px;
+    }
+
+    .FAQ-list {
+      display: flex;
+      flex-direction: column;
+      margin-top: 55px;
+
+      .FAQ-item {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid #383838;
+        cursor: pointer;
+        max-height: 56px;
+        width: 100%;
+        transition: .4s ease all;
+
+        .main {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 16px 20px;
+
+          .No {
+            width: 33%;
+            color: var(--color-second);
+            font-size: 14px;
+
+          }
+          .question {
+            width: 60vw;
+            font-size: 20px;
+            padding-left: 18%;
+          }
+          .arrow {
+            text-align: end;
+            width: 33%;
+
+            img {
+              transform: rotate(180deg);
+              transition: ease all .5s;
+            }
+          }
+        }
+        .answer {
+          width: 300px;
+          transition: ease all .4s;
+          font-size: 14px;
+          line-height: 21px;
+          color: var(--color-second);
+          max-width: 30%;
+          margin-left: auto;
+          margin-right: 100px;
+          padding-bottom: 10px;
+          clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        }
+
+        &.active {
+          max-height: 270px;
+
+          .arrow img {
+            transform: rotate(0deg);
+          }
+          .answer {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .FAQ {
+    padding: 160px 0;
+
+    .container {
+
+      .FAQ-title {
+        padding-left:  40px;
+      }
+      .FAQ-list {
+        .FAQ-item {
+          .main {
+            .No {
+              width: 10%;
+            }
+            .question {
+              width: 100vw;
+              font-size: 20px;
+              padding-left: 14%;
+            }
+          }
+          .answer {
+            width: 500px;
+            max-width: 50%;
+            margin-right: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .FAQ {
+    padding: 50px 0;
+
+    .container {
+
+      .FAQ-title {
+        padding-left:  0;
+
+        h2 {
+          font-size: 22px;
+          line-height: 30px;
+        }
+      }
+      .FAQ-list {
+        .FAQ-item {
+          min-height: 41px;
+
+          .main {
+            padding: 10px;
+
+            .No {
+              width: 10%;
+            }
+            .question {
+              font-size: 16px;
+              width: 80%;
+            }
+          }
+          .answer {
+            top: 50px;
+            max-width: 90%!important;
+            padding-left: 10px;
+          }
+        }
+
+      }
+    }
+  }
+}
